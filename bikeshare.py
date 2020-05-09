@@ -19,10 +19,10 @@ def get_filters():
         city = input("Sorry, Invalid Input. Try again.").lower()
 
     # get user input for month (all, january, february, ... , june)
-    month = input("Please enter month name: ").lower()
+    month = input("Please enter month name or type all: ").lower()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    day = input("Please enter day of week: ").lower()
+    day = input("Please enter day of week or type all: ").lower()
 
     print('-'*40)
     return city, month, day
@@ -190,7 +190,7 @@ def display_data(df):
             start_loc += 5
             end_loc += 5
 
-            end_display = input("Do you wish to continue?: ").lower()
+            end_display = input("Do you wish to continue or exit ?: ").lower()
             if end_display == 'no':
                 break
 
@@ -207,14 +207,14 @@ def main():
         user_stats(df, city)
         display_data(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart the process again? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
 
 if __name__ == "__main__":
 	main()
-      
+
 # References are below:
 #https://stackoverflow.com/questions/3754620/what-does-while-true-mean-in-python
 #https://realpython.com/python-keyerror/
