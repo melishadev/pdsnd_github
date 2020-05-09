@@ -18,10 +18,8 @@ washington.csv
 Python 3, NumPy, and pandas installed using Anaconda
 Text editor, like Sublime or Atom.
 Terminal application (git bash)
-||||||| 0416300
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-=======
+
+
 ### Software used
 Python 3, NumPy, and pandas installed using Anaconda
 Text editor, like Sublime or Atom.
@@ -37,7 +35,7 @@ What is the most popular trip?
 What are the counts of each user type?
 What are the counts of gender?
 What are the earliest (i.e. oldest person), most recent (i.e. youngest person), and most popular birth years?
->>>>>>> refactoring
+
 
 ### Credits
 https://stackoverflow.com/questions/3754620/what-does-while-true-mean-in-python
