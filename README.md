@@ -13,6 +13,11 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
+### Software used
+Python 3, NumPy, and pandas installed using Anaconda
+Text editor, like Sublime or Atom.
+Terminal application (git bash)
+
 ### Credits
 https://stackoverflow.com/questions/3754620/what-does-while-true-mean-in-python
 https://realpython.com/python-keyerror/
