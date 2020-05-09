@@ -13,7 +13,6 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
-<<<<<<< HEAD
 ### Software used
 Python 3, NumPy, and pandas installed using Anaconda
 Text editor, like Sublime or Atom.
