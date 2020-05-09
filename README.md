@@ -1,6 +1,6 @@
 ### Date created
 Project creation date: 4-15-2020
-Readme dile creation date: 5-9-2020
+Readme file creation date: 5-9-2020
 
 ### Project Title
 Explore US Bikeshare Data
