@@ -19,10 +19,10 @@ def get_filters():
         city = input("Sorry, Invalid Input. Try again.").lower()
 
     # get user input for month (all, january, february, ... , june)
-    month = input("Please enter month name: ").lower()
+    month = input("Please enter month name or type all: ").lower()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    day = input("Please enter day of week: ").lower()
+    day = input("Please enter day of week or type all: ").lower()
 
     print('-'*40)
     return city, month, day
@@ -214,7 +214,7 @@ def main():
 
 if __name__ == "__main__":
 	main()
-      
+
 # References are below:
 #https://stackoverflow.com/questions/3754620/what-does-while-true-mean-in-python
 #https://realpython.com/python-keyerror/
