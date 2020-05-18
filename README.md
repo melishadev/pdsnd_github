@@ -18,11 +18,6 @@ Python 3, NumPy, and pandas installed using Anaconda
 Text editor, like Sublime or Atom.
 Terminal application (git bash)
 
-### Software used
-Python 3, NumPy, and pandas installed using Anaconda
-Text editor, like Sublime or Atom.
-Terminal application (git bash)
-
 ### Interacitve Answers to User Input
 What is the most popular month for start time?
 What is the most popular day of week (Monday, Tuesday, etc.) for start time?
